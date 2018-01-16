@@ -1,9 +1,9 @@
 apt-get upgrade
 apt-get update
 
-apt-get install build-essential -y
-apt-get install python-dev -y
-apt-get install lighttpd -y
+apt-get install -y build-essential
+apt-get install -y python-dev
+apt-get install -y lighttpd
 
 chown www-data:www-data /var/www
 chmod 775 /var/www
