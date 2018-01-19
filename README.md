@@ -1,7 +1,7 @@
 # pi
 GSOC Raspberry Pi Setup Files
 
-Used to configure the 10 GSOC Raspberry Pi kits after first installating the 12/27/2017 NOOBS (Rasbpian Desktop) update.
+Used to configure the 10 GSOC Raspberry Pi kits after first installating the 12/27/2017 NOOBS (Raspbian Desktop) update.
 
 Instructions:
 cd /usr/local/bin
