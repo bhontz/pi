@@ -5,8 +5,11 @@ Used to configure the 10 GSOC Raspberry Pi kits after first installating the 12/
 
 Instructions:
 cd /usr/local/bin
-https://github.com/bhontz/pi.git (in otherwords git clone this respository into /usr/local/bin)
+
+sudo git clone https://github.com/bhontz/pi.git (in otherwords git clone this respository into /usr/local/bin)
+
 cd pi
+
 sudo sh wsetup.sh
 
 The script above adds build-essential, python-dev and lighttpd packages.  It also installs downloads the Adafruit_Python_DHT module from this repository and builds the module, and installs the my_weather_station.py python script used for the GSOC Raspberry Pi weather station project.
